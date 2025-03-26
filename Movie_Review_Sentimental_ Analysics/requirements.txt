@@ -1,0 +1,11 @@
+# Required Libraries
+streamlit
+joblib
+nltk
+scikit-learn
+pandas
+matplotlib
+numpy
+seaborn
+plotly
+scipy
