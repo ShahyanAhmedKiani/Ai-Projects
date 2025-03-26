@@ -4,7 +4,9 @@ import nltk
 import string
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
-
+import streamlit as st
+st.cache_data.clear()
+st.cache_resource.clear()
 # Load pre-trained model and vectorizer
 model = joblib.load("sentiment_model.pkl")
 vectorizer = joblib.load("vectorizer.pkl")
