@@ -6,8 +6,8 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 
 # Load pre-trained model and vectorizer
-model = joblib.load("sentiment_model.pkl")
-vectorizer = joblib.load("vectorizer.pkl")
+model = joblib.load("APP/sentiment_model.pkl")
+vectorizer = joblib.load("APP/vectorizer.pkl")
 
 nltk.download('stopwords')
 nltk.download('punkt')
