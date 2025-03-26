@@ -1,6 +1,0 @@
-streamlit
-joblib
-nltk
-scikit-learn
-pandas
-matplotlib
